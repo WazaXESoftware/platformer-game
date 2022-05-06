@@ -86,3 +86,88 @@ Received Import Request.
 Start importing Assets/Scenes using Guid(5e7b55165b02a4746a4718bc59b63b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0823cba5d4e87cb568c1d9bb777ac2d') in 0.038568 seconds
   Import took 0.052960 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:205)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:237)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs line 205]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 2.026400 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.573000 ms  DeleteObjects: 0.140100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 908.606183 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.012970 seconds
+  Import took 0.018275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.419469 seconds.
+  path: Assets/Art
+  artifactKey: Guid(3463412d38c1d634c9785afa4453f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(3463412d38c1d634c9785afa4453f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97abb87bf307f58e7d6ea139ecd71ebe') in 0.008920 seconds
+  Import took 0.016555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.403492 seconds.
+  path: Assets/Sound
+  artifactKey: Guid(fffbd53c9d6f2a5488a5f8aa9169b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound using Guid(fffbd53c9d6f2a5488a5f8aa9169b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0269011f33bc650ee98f26ba14b800de') in 0.008472 seconds
+  Import took 0.013630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.818218 seconds.
+  path: Assets/Music
+  artifactKey: Guid(01205dc715e9a284ea214bf98cb00e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music using Guid(01205dc715e9a284ea214bf98cb00e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9675cb17a07e9fa62e93a63efc04018a') in 0.008292 seconds
+  Import took 0.011664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.774196 seconds.
+  path: Assets/Code
+  artifactKey: Guid(dbb162a4fe02f2640ae756d5a6036d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code using Guid(dbb162a4fe02f2640ae756d5a6036d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc95e0ae207e4f7508e639987629c84') in 0.007932 seconds
+  Import took 0.012668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.427764 seconds.
+  path: Assets/Story
+  artifactKey: Guid(406c8051d8728b6469050fb376b9d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story using Guid(406c8051d8728b6469050fb376b9d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa081f0ddf7390ef2e683fd9814dc4d') in 0.007725 seconds
+  Import took 0.011730 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
